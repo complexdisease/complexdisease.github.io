@@ -1,0 +1,506 @@
+{
+  "fileVersions": {
+    "inMatrix": {
+      "fname": "/mnt/data/scatac_wjg/cr_output/villi_ucsc/exprMatrix.tsv.gz",
+      "md5": "8e3022071b",
+      "size": 37534862,
+      "mtime": "2021-04-28 08:23:59"
+    },
+    "outMatrix": {
+      "fname": "./webpage/SeuratProject/exprMatrix.tsv.gz",
+      "md5": "8e3022071b",
+      "size": 37534862,
+      "mtime": "2021-04-28 16:53:08"
+    },
+    "inMeta": {
+      "fname": "/mnt/data/scatac_wjg/cr_output/villi_ucsc/meta.tsv",
+      "md5": "24e341d36f",
+      "size": 2701462,
+      "mtime": "2021-04-28 08:23:59"
+    },
+    "outMeta": {
+      "fname": "./webpage/SeuratProject/meta.tsv",
+      "md5": "73d07db84b",
+      "size": 2407302,
+      "mtime": "2021-04-28 17:03:32"
+    },
+    "conf": {
+      "fname": "/mnt/data/scatac_wjg/cr_output/villi_ucsc/cellbrowser.conf",
+      "md5": "943b930dc9",
+      "size": 1027,
+      "mtime": "2021-04-28 08:23:59"
+    }
+  },
+  "matrixArrType": "Uint32",
+  "sampleCount": 14707,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "Cell",
+      "label": "Cell",
+      "type": "uniqueString",
+      "maxSize": 28,
+      "diffValCount": 14707,
+      "md5": "a194f0e58c"
+    },
+    {
+      "name": "nCount_RNA",
+      "label": "nCount_RNA",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 7346,
+      "md5": "966495a240"
+    },
+    {
+      "name": "nFeature_RNA",
+      "label": "nFeature_RNA",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 3936,
+      "md5": "032168193f"
+    },
+    {
+      "name": "dataset",
+      "label": "dataset",
+      "type": "enum",
+      "valCounts": [
+        [
+          "villi_37F_2",
+          8420
+        ],
+        [
+          "villi_37F",
+          6287
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 2,
+      "md5": "8ccf4b0d5e"
+    },
+    {
+      "name": "nCount_ATAC",
+      "label": "nCount_ATAC",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 8803,
+      "md5": "12d8b7333b"
+    },
+    {
+      "name": "nFeature_ATAC",
+      "label": "nFeature_ATAC",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 8260,
+      "md5": "5757a310f0"
+    },
+    {
+      "name": "tei_prediction",
+      "label": "tei_prediction",
+      "type": "enum",
+      "valCounts": [
+        [
+          "VCT",
+          6019
+        ],
+        [
+          "EVT",
+          2915
+        ],
+        [
+          "dS1",
+          2060
+        ],
+        [
+          "Tcells",
+          2003
+        ],
+        [
+          "dNK2",
+          817
+        ],
+        [
+          "dNK1",
+          481
+        ],
+        [
+          "dM1",
+          231
+        ],
+        [
+          "dS2",
+          68
+        ],
+        [
+          "dNK3",
+          34
+        ],
+        [
+          "HB",
+          27
+        ],
+        [
+          "fFB1",
+          26
+        ],
+        [
+          "dM2",
+          7
+        ],
+        [
+          "dP1",
+          7
+        ],
+        [
+          "dNK p",
+          4
+        ],
+        [
+          "dP2",
+          3
+        ],
+        [
+          "Endo (m)",
+          2
+        ],
+        [
+          "NK CD16+",
+          2
+        ],
+        [
+          "Epi1",
+          1
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 18,
+      "md5": "10230bbf77"
+    },
+    {
+      "name": "elife_prediction",
+      "label": "elife_prediction",
+      "type": "enum",
+      "valCounts": [
+        [
+          "CTB",
+          4158
+        ],
+        [
+          "EVT",
+          2810
+        ],
+        [
+          "T-cell",
+          2101
+        ],
+        [
+          "HSC",
+          1289
+        ],
+        [
+          "Monocyte",
+          993
+        ],
+        [
+          "NK-cell",
+          788
+        ],
+        [
+          "Fibroblast",
+          685
+        ],
+        [
+          "Macrophage",
+          645
+        ],
+        [
+          "Stromal",
+          430
+        ],
+        [
+          "LED",
+          284
+        ],
+        [
+          "STB",
+          185
+        ],
+        [
+          "B-cell",
+          170
+        ],
+        [
+          "Decidual",
+          168
+        ],
+        [
+          "Endometrial",
+          1
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 14,
+      "md5": "77c5392d46"
+    },
+    {
+      "name": "nucleosome_signal",
+      "label": "nucleosome_signal",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 14634,
+      "md5": "601d83ac05"
+    },
+    {
+      "name": "TSSenrichment",
+      "label": "TSS.enrichment",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 13394,
+      "md5": "02dadfe425"
+    },
+    {
+      "name": "TSSpercentile",
+      "label": "TSS.percentile",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 101,
+      "md5": "d39ecf73a3"
+    },
+    {
+      "name": "nucleosome_percentile",
+      "label": "nucleosome_percentile",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 101,
+      "md5": "f8e3570575"
+    },
+    {
+      "name": "nCount_SCT",
+      "label": "nCount_SCT",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 2115,
+      "md5": "9576c40822"
+    },
+    {
+      "name": "nFeature_SCT",
+      "label": "nFeature_SCT",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 2449,
+      "md5": "6ececc62e0"
+    },
+    {
+      "name": "SCTweight",
+      "label": "SCT.weight",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 14373,
+      "md5": "9496a24433"
+    },
+    {
+      "name": "ATACweight",
+      "label": "ATAC.weight",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 14603,
+      "md5": "0a7a790aba"
+    },
+    {
+      "name": "anno",
+      "label": "anno",
+      "type": "enum",
+      "valCounts": [
+        [
+          "SCT_1",
+          6187
+        ],
+        [
+          "SCT_2",
+          3767
+        ],
+        [
+          "VCT",
+          1768
+        ],
+        [
+          "Endo",
+          1390
+        ],
+        [
+          "Stromal_1",
+          679
+        ],
+        [
+          "Myeloid",
+          523
+        ],
+        [
+          "Stromal_2",
+          219
+        ],
+        [
+          "NK",
+          85
+        ],
+        [
+          "EVT_1",
+          52
+        ],
+        [
+          "EVT_2",
+          21
+        ],
+        [
+          "Eryth",
+          10
+        ],
+        [
+          "Unk_TB",
+          6
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 12,
+      "md5": "3d1b7fdc1a"
+    },
+    {
+      "name": "hightss",
+      "label": "high.tss",
+      "type": "enum",
+      "valCounts": [
+        [
+          "High",
+          14545
+        ],
+        [
+          "Low",
+          162
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 2,
+      "md5": "da5b2fb157"
+    },
+    {
+      "name": "Y_percentage",
+      "label": "Y_percentage",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 8707,
+      "md5": "0bdf8e4563"
+    },
+    {
+      "name": "Cluster",
+      "label": "Cluster",
+      "type": "enum",
+      "valCounts": [
+        [
+          "SCT_1",
+          6187
+        ],
+        [
+          "SCT_2",
+          3767
+        ],
+        [
+          "VCT",
+          1768
+        ],
+        [
+          "Endo",
+          1390
+        ],
+        [
+          "Stromal_1",
+          679
+        ],
+        [
+          "Myeloid",
+          523
+        ],
+        [
+          "Stromal_2",
+          219
+        ],
+        [
+          "NK",
+          85
+        ],
+        [
+          "EVT_1",
+          52
+        ],
+        [
+          "EVT_2",
+          21
+        ],
+        [
+          "Eryth",
+          10
+        ],
+        [
+          "Unk_TB",
+          6
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 12,
+      "md5": "aa7909e61c"
+    }
+  ],
+  "labelField": "Cluster",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "Seurat umap",
+      "md5": "5725ba3561",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_1",
+      "shortLabel": "Seurat sc_umap",
+      "md5": "fc6e15334f",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_2",
+      "shortLabel": "Seurat rna_umap",
+      "md5": "42ea59907b",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_3",
+      "shortLabel": "Seurat atac_umap",
+      "md5": "d87c101a5a",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "markers": [],
+  "name": "SeuratProject",
+  "shortLabel": "SeuratProject",
+  "clusterField": "Cluster",
+  "md5": "abdd5dfd63"
+}
