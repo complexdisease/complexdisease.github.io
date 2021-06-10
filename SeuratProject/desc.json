@@ -1,9 +1,0 @@
-{
-  "coordFiles": [
-    "Seurat_umap.coords.tsv.gz",
-    "Seurat_sc_umap.coords.tsv.gz",
-    "Seurat_rna_umap.coords.tsv.gz",
-    "Seurat_atac_umap.coords.tsv.gz"
-  ],
-  "matrixFile": "./SeuratProject/exprMatrix.tsv.gz"
-}
